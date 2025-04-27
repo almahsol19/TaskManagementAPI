@@ -12,7 +12,7 @@ Before you run the project, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/altabs/TaskManagementAPI.git
+    git clone [https://github.com/altabs/TaskManagementAPI.git](https://github.com/almahsol19/TaskManagementAPI.git)
     cd TaskManagementAPI
     ```
 
