@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\talma\\OneDrive\\Documents\\Test\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj": {}
+    "C:\\Users\\talma\\OneDrive\\Documents\\UnitTest\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\talma\\OneDrive\\Documents\\Test\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj": {
+    "C:\\Users\\talma\\OneDrive\\Documents\\UnitTest\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talma\\OneDrive\\Documents\\Test\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj",
+        "projectUniqueName": "C:\\Users\\talma\\OneDrive\\Documents\\UnitTest\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj",
         "projectName": "TaskManagementApi",
-        "projectPath": "C:\\Users\\talma\\OneDrive\\Documents\\Test\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj",
+        "projectPath": "C:\\Users\\talma\\OneDrive\\Documents\\UnitTest\\TaskManagementAPI\\TaskManagementApi\\TaskManagementApi.csproj",
         "packagesPath": "C:\\Users\\talma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talma\\OneDrive\\Documents\\Test\\TaskManagementAPI\\TaskManagementApi\\obj\\",
+        "outputPath": "C:\\Users\\talma\\OneDrive\\Documents\\UnitTest\\TaskManagementAPI\\TaskManagementApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

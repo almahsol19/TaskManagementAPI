@@ -61,3 +61,18 @@ namespace TaskManagementAPI.Services
         }
     }
 }
+
+
+// Explanation of Changes:
+
+// 1. Changed method return types to be properly asynchronous:
+
+//    1.1 Task<TaskItem?> for getting a single task.
+
+//    1.2 Task<List<TaskItem>> for getting all tasks.
+
+// 2 Added await keywords when calling async Entity Framework methods (FirstOrDefaultAsync, ToListAsync).
+
+// 3 Updated DbContext to the correct custom AppDbContext for better typing.
+
+// 4. Wrapped database calls in try-catch blocks to provide basic error handling and logging in case of runtime issues.

@@ -1,7 +1,0 @@
-Explanation of Changes:
-1. async/await: The await keyword was added to ensure that asynchronous operations complete correctly.
-			 Without await, these methods would run synchronously, which is not what we want for async database queries.
-2. Return type changes: Since FirstOrDefaultAsync and ToListAsync are asynchronous methods,
-					 the methods GetTask and GetAllTasks return Task<Task> and Task<List<Task>>, respectively, instead of returning the result directly.
-3. Error handling: A try-catch block was added to catch any potential exceptions,
-				such as database connection issues or errors while executing the queries.

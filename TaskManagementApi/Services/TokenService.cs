@@ -4,7 +4,6 @@ namespace TaskManagementAPI.Services
 {
     public class TokenService
     {
-        // Very simple, for demo only
         public static string GenerateToken(User user)
         {
             return $"{user.Username}:{user.Role}";
