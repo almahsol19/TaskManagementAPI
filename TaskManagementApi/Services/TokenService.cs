@@ -1,5 +1,4 @@
-﻿using TaskManagementApi.Models;
-using TaskManagementAPI.Models;
+﻿using TaskManagementAPI.Models;
 
 namespace TaskManagementAPI.Services
 {

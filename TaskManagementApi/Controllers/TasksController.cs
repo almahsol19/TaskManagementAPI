@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TaskManagementApi.Models;
 using TaskManagementAPI.Data;
 using TaskManagementAPI.Models;
 using TaskManagementAPI.Services;
@@ -11,9 +10,9 @@ namespace TaskManagementAPI.Controllers
     [Route("api/[controller]")]
     public class TasksController : ControllerBase
     {
-        private readonly ApplicationDbContext _db;
+        private readonly AppDbContext _db;
 
-        public TasksController(ApplicationDbContext db)
+        public TasksController(AppDbContext db)
         {
             _db = db;
         }

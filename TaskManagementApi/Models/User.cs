@@ -1,4 +1,4 @@
-﻿namespace TaskManagementApi.Models
+﻿namespace TaskManagementAPI.Models
 {
     public class User
     {

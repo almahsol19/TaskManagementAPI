@@ -1,6 +1,4 @@
-﻿using TaskManagementApi.Models;
-
-namespace TaskManagementAPI.Models
+﻿namespace TaskManagementAPI.Models
 {
     public class TaskItem
     {

@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TaskManagementApi.Models;
 using TaskManagementAPI.Data;
 using TaskManagementAPI.Models;
 using TaskManagementAPI.Services;
@@ -10,9 +9,9 @@ namespace TaskManagementAPI.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        private readonly ApplicationDbContext _db;
+        private readonly AppDbContext _db;
 
-        public AuthController(ApplicationDbContext db)
+        public AuthController(AppDbContext db)
         {
             _db = db;
         }

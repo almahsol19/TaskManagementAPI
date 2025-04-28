@@ -1,11 +1,10 @@
-﻿using TaskManagementApi.Models;
-using TaskManagementAPI.Models;
+﻿using TaskManagementAPI.Models;
 
 namespace TaskManagementAPI.Data
 {
     public static class DbInitializer
     {
-        public static void Initialize(ApplicationDbContext context)
+        public static void Initialize(AppDbContext context)
         {
             context.Database.EnsureCreated();
 
